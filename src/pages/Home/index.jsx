@@ -19,7 +19,7 @@ function Home() {
           <img
             width={495}
             height={424}
-            src="./src/assets/images/Image.png"
+            src="../../assets/images/Image.png"
             alt=""
           />
         </div>
