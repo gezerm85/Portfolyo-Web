@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { FaStar } from "react-icons/fa6";
+import image from "../../assets/images/Image.png";
 
 function Home() {
   return (
@@ -16,12 +17,7 @@ function Home() {
           </h4>
         </div>
         <div className=" max-sm:mt-28">
-          <img
-            width={495}
-            height={424}
-            src="./src/assets/images/Image.png"
-            alt=""
-          />
+          <img width={495} height={424} src={image} alt="" />
         </div>
       </div>
 
