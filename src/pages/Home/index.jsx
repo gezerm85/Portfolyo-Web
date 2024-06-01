@@ -204,7 +204,7 @@ function Home() {
         </div>
       </div>
       <hr className="mt-20 border mx-56  border-[#a3a3a3] items-center max-md:mx-16" />
-      <div className="flex flex-wrap mt-14 justify-between px-56 ">
+      <div className="flex flex-wrap mt-14 justify-between px-56  max-md:justify-center ">
         <div className=" h-full flex flex-col mb-5">
           <h1 className="text-[32px] font-semibold max-w-[385px] ">
             Let’s work together
