@@ -2,6 +2,28 @@
 import React from "react";
 import { FaStar } from "react-icons/fa6";
 import image from "../../assets/images/Image.png";
+import placeholder from "../../assets/images/placeholder.png";
+import placeholder2 from "../../assets/images/placeholder2.png";
+import placeholder3 from "../../assets/images/placeholder3.png";
+import google from "../../assets/images/Google.png";
+import apple from "../../assets/images/Apple.png";
+import Awwwards from "../../assets/images/Awwwards.png";
+import Dribbble from "../../assets/images/Dribbble.png";
+import Behance from "../../assets/images/Behance.png";
+import category1 from "../../assets/images/category1.png";
+import category2 from "../../assets/images/category2.png";
+import category3 from "../../assets/images/category3.png";
+import category4 from "../../assets/images/category4.png";
+import category5 from "../../assets/images/category5.png";
+import category6 from "../../assets/images/category6.png";
+import Author1 from "../../assets/images/Author-images.png";
+import Author2 from "../../assets/images/Author-images2.png";
+import Author3 from "../../assets/images/Author-images3.png";
+import DC from "../../assets/images/Vector_DC.png";
+import FB from "../../assets/images/Vector_FB.png";
+import drib from "../../assets/images/Vector_dribbble.png";
+import insta from "../../assets/images/Vector_instagram.png";
+import behen from "../../assets/images/Vector_Behance.png";
 
 function Home() {
   return (
@@ -23,12 +45,7 @@ function Home() {
 
       <div className=" my-28 max-md:my-0 flex items-center justify-center  gap-24 flex-wrap ">
         <div className=" h-[300px] w-64 flex flex-col items-center justify-between ">
-          <img
-            width={130}
-            height={130}
-            src="./src/assets/images/Image placeholder.png"
-            alt=""
-          />
+          <img width={130} height={130} src={placeholder} alt="" />
           <h3 className="font-semibold text-[27px]">Product design</h3>
           <p className="text-[17px] text-center ">
             This is a template Figma file, turned into code using Anima. Learn
@@ -36,12 +53,7 @@ function Home() {
           </p>
         </div>
         <div className=" h-[300px] w-64 flex flex-col items-center justify-between ">
-          <img
-            width={130}
-            height={130}
-            src="./src/assets/images/Image placeholder2.png"
-            alt=""
-          />
+          <img width={130} height={130} src={placeholder2} alt="" />
           <h3 className="font-semibold text-[27px]">Art Drection</h3>
           <p className="text-[17px] text-center">
             This is a template Figma file, turned into code using Anima. Learn
@@ -49,12 +61,7 @@ function Home() {
           </p>
         </div>
         <div className="h-[300px] w-64 flex flex-col items-center justify-between">
-          <img
-            width={130}
-            height={130}
-            src="./src/assets/images/Image placeholder3.png"
-            alt=""
-          />
+          <img width={130} height={130} src={placeholder3} alt="" />
           <h3 className="font-semibold text-[27px]">Visual design</h3>
           <p className="text-[17px] text-center">
             This is a template Figma file, turned into code using Anima. Learn
@@ -65,36 +72,11 @@ function Home() {
 
       <div className=" px-56 max-md:px-28 mt-10  ">
         <div className="flex items-center py-10  justify-center min-h-[150px] gap-32 border-t border-b border-[#a3a3a3] flex-wrap max-md:gap-12    ">
-          <img
-            width={53}
-            height={34}
-            src="./src/assets/images/Behance.png"
-            alt=""
-          />
-          <img
-            width={103}
-            height={34}
-            src="./src/assets/images/Google.png"
-            alt=""
-          />
-          <img
-            width={38}
-            height={46}
-            src="./src/assets/images/Apple.png"
-            alt=""
-          />
-          <img
-            width={139}
-            height={34}
-            src="./src/assets/images/Dribbble.png"
-            alt=""
-          />
-          <img
-            width={213}
-            height={34}
-            src="./src/assets/images/Awwwards.png"
-            alt=""
-          />
+          <img width={53} height={34} src={Behance} alt="" />
+          <img width={103} height={34} src={google} alt="" />
+          <img width={38} height={46} src={apple} alt="" />
+          <img width={139} height={34} src={Dribbble} alt="" />
+          <img width={213} height={34} src={Awwwards} alt="" />
         </div>
       </div>
       <div className="">
@@ -104,64 +86,34 @@ function Home() {
         <div>
           <div className="flex items-center justify-center gap-16 flex-wrap ">
             <div className="h-[407px] flex flex-col justify-between">
-              <img
-                width={315}
-                height={315}
-                src="./src/assets/images/category1.png"
-                alt=""
-              />
+              <img width={315} height={315} src={category1} alt="" />
               <h1 className="text-xl font-semibold">Free Bird</h1>
               <p className="text-[17px] text-[#2d2d2d] ">Lynyrd Skynyrd</p>
             </div>
             <div className="h-[407px] flex flex-col justify-between">
-              <img
-                width={315}
-                height={315}
-                src="./src/assets/images/category2.png"
-                alt=""
-              />
+              <img width={315} height={315} src={category2} alt="" />
               <h1 className="text-xl font-semibold">Purple Haze</h1>
               <p className="text-[17px] text-[#2d2d2d] ">Jimi Hendrix</p>
             </div>
             <div className="h-[407px] flex flex-col justify-between">
-              <img
-                width={315}
-                height={315}
-                src="./src/assets/images/category3.png"
-                alt=""
-              />
+              <img width={315} height={315} src={category3} alt="" />
               <h1 className="text-xl font-semibold">You Really Got Me</h1>
               <p className="text-[17px] text-[#2d2d2d] ">The Kinks</p>
             </div>
           </div>
           <div className="flex items-center justify-center gap-16 mt-16 flex-wrap">
             <div className="h-[407px] flex flex-col justify-between">
-              <img
-                width={315}
-                height={315}
-                src="./src/assets/images/category4.png"
-                alt=""
-              />
+              <img width={315} height={315} src={category4} alt="" />
               <h1 className="text-xl font-semibold">American Girl</h1>
               <p className="text-[17px] text-[#2d2d2d] ">Tom Petty</p>
             </div>
             <div className="h-[407px] flex flex-col justify-between">
-              <img
-                width={315}
-                height={315}
-                src="./src/assets/images/category5.png"
-                alt=""
-              />
+              <img width={315} height={315} src={category5} alt="" />
               <h1 className="text-xl font-semibold">Who Lotta Love</h1>
               <p className="text-[17px] text-[#2d2d2d] ">Led Zeppelin</p>
             </div>
             <div className="h-[407px] flex flex-col justify-between">
-              <img
-                width={315}
-                height={315}
-                src="./src/assets/images/category6.png"
-                alt=""
-              />
+              <img width={315} height={315} src={category6} alt="" />
               <h1 className="text-xl font-semibold">Under Pressure</h1>
               <p className="text-[17px] text-[#2d2d2d] ">Queen</p>
             </div>
@@ -181,7 +133,7 @@ function Home() {
                 className="pb-5"
                 width={50}
                 height={50}
-                src="./src/assets/images/Author-images.png"
+                src={Author1}
                 alt=""
               />
               <div className="flex flex-col">
@@ -207,7 +159,7 @@ function Home() {
                 className="pb-5"
                 width={50}
                 height={50}
-                src="./src/assets/images/Author-images2.png"
+                src={Author2}
                 alt=""
               />
               <div className="flex flex-col">
@@ -233,7 +185,7 @@ function Home() {
                 className="pb-5"
                 width={50}
                 height={50}
-                src="./src/assets/images/Author-images3.png"
+                src={Author3}
                 alt=""
               />
               <div className="flex flex-col">
@@ -267,35 +219,35 @@ function Home() {
               className="object-none"
               width={36}
               height={36}
-              src="./src/assets/images/Vector_DC.png"
+              src={DC}
               alt=""
             />
             <img
               className="object-none"
               width={36}
               height={36}
-              src="./src/assets/images/Vector_FB.png"
+              src={FB}
               alt=""
             />
             <img
               className="object-none"
               width={36}
               height={36}
-              src="./src/assets/images/Vector_dribbble.png"
+              src={drib}
               alt=""
             />
             <img
               className="object-none"
               width={36}
               height={36}
-              src="./src/assets/images/Vector_instagram.png"
+              src={insta}
               alt=""
             />
             <img
               className="object-none"
               width={36}
               height={36}
-              src="./src/assets/images/Vector_behance.png"
+              src={behen}
               alt=""
             />
           </div>

@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
+import menu from "../../assets/images/Menu.png";
 
 function Header() {
   return (
@@ -16,12 +17,7 @@ function Header() {
       <div className=" md:hidden ">
         <Menu as="div" className="relative inline-block text-left">
           <Menu.Button className="inline-flex w-full justify-center rounded-md /20 px-4 py-2">
-            <img
-              width={25}
-              height={25}
-              src="./src/assets/images/Menu.png"
-              alt=""
-            />
+            <img width={25} height={25} src={menu} alt="" />
           </Menu.Button>
           <Transition
             as={Fragment}
