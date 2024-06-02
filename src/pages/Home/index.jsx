@@ -19,10 +19,11 @@ import category6 from "../../assets/images/category6.png";
 import Author1 from "../../assets/images/Author-images.png";
 import Author2 from "../../assets/images/Author-images2.png";
 import Author3 from "../../assets/images/Author-images3.png";
+import { FaArrowAltCircleUp } from "react-icons/fa";
 
 function Home() {
   return (
-    <div className=" ">
+    <div className=" relative">
       <div className="flex items-center justify-center p-20 flex-wrap  ">
         <div className="max-h-[317px] max-w-[557px] flex flex-col max-md:text-center">
           <h3 className="text-xl font-semibold ">Branding | Image making</h3>

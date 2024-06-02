@@ -5,10 +5,17 @@ import FB from "../../assets/images/Vector_FB.png";
 import drib from "../../assets/images/Vector_dribbble.png";
 import insta from "../../assets/images/Vector_instagram.png";
 import behen from "../../assets/images/Vector_Behance.png";
+import { FaArrowAltCircleUp } from "react-icons/fa";
 
 function Form() {
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
   return (
-    <div className="flex flex-wrap mt-14 justify-between px-56 max-md:justify-center  ">
+    <div className="flex flex-wrap mt-14 relative  justify-between px-56 max-md:justify-center  ">
       <div className=" h-full flex flex-col mb-5">
         <h1 className="text-[32px] font-semibold max-w-[385px] ">
           Let’s work together
@@ -65,6 +72,12 @@ function Form() {
           </button>
         </div>
       </div>
+      <button
+        onClick={scrollToTop}
+        className="absolute bottom-5 right-5 transition-opacity duration-500"
+      >
+        <FaArrowAltCircleUp size={30} />
+      </button>
     </div>
   );
 }
