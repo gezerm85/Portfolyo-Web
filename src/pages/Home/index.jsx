@@ -19,7 +19,6 @@ import category6 from "../../assets/images/category6.png";
 import Author1 from "../../assets/images/Author-images.png";
 import Author2 from "../../assets/images/Author-images2.png";
 import Author3 from "../../assets/images/Author-images3.png";
-import { FaArrowAltCircleUp } from "react-icons/fa";
 
 function Home() {
   return (
@@ -198,7 +197,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <hr className="mt-20 border mx-56  border-[#a3a3a3] items-center max-md:mx-16" />
     </div>
   );
 }
