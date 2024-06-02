@@ -45,7 +45,7 @@ function Form() {
         </div>
       </div>
       <div className=" h-full flex flex-col ">
-        <div className="flex flex-col gap-10  min-w-[385px] pr-5">
+        <div className="flex flex-col gap-10  min-w-[385px] max-md:pr-5">
           <input
             className="p-5 border focus:outline-none bg-[#F3F3F3]"
             type="text"
