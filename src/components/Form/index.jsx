@@ -74,7 +74,7 @@ function Form() {
       </div>
       <button
         onClick={scrollToTop}
-        className="absolute bottom-5 right-5 transition-opacity duration-500"
+        className="absolute bottom-10 right-10 transition-opacity duration-500"
       >
         <FaArrowAltCircleUp size={30} />
       </button>
