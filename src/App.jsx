@@ -1,5 +1,5 @@
-import "./App.css";
 import Router from "./Router";
+import Form from "./components/Form";
 import Header from "./components/Header";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <div className="">
       <Header />
       <Router />
+      <Form />
     </div>
   );
 }

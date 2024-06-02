@@ -2,15 +2,18 @@
 import React, { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import menu from "../../assets/images/Menu.png";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
     <div className="h-20 w-[100%] flex items-center  justify-between  border lg:px-[100px] px-6">
       <div className="text-[hsl(0,0%,18%)] text-xl font-semibold ">
-        <h1>logo</h1>
+        <NavLink to="/">logo</NavLink>
       </div>
       <div className=" text-[#2D2D2D]   gap-10 hidden md:flex ">
-        <h1>About</h1>
+        <NavLink className=" aria-[current=page]:text-blue-400" to="/about">
+          About
+        </NavLink>
         <h1>Work</h1>
         <h1>Contact</h1>
       </div>
@@ -34,30 +37,24 @@ function Header() {
             >
               <Menu.Item>
                 {() => (
-                  <a
-                    className="hover:bg-[#f3f3f3]  p-3"
-                    href="/account-settings"
+                  <NavLink
+                    className=" p-3 hover:bg-[#f3f3f3]  aria-[current=page]:text-blue-400"
+                    to="/about"
                   >
                     About
-                  </a>
+                  </NavLink>
                 )}
               </Menu.Item>
               <Menu.Item>
                 {() => (
-                  <a
-                    className="hover:bg-[#f3f3f3] p-3"
-                    href="/account-settings"
-                  >
+                  <a className="hover:bg-[#f3f3f3] p-3" href="#">
                     Work
                   </a>
                 )}
               </Menu.Item>
               <Menu.Item>
                 {() => (
-                  <a
-                    className="hover:bg-[#f3f3f3] p-3"
-                    href="/account-settings"
-                  >
+                  <a className="hover:bg-[#f3f3f3] p-3" href="#">
                     Contact
                   </a>
                 )}
