@@ -23,7 +23,7 @@ function About() {
         </div>
       </div>
       <div className="h-[640px] flex flex-col items-center justify-center  ">
-        <div className="flex flex-col max-w-[880px] max-md:px-14">
+        <div className="flex flex-col max-w-[880px] max-md:px-14 max-md:mt-28">
           <h1 className="text-2xl font-medium mb-[60px] ">
             When I was 5, I got adbucted by a unicorn family. When they returned
             me to earth, I joined a designer school. But, fo’ real, what I

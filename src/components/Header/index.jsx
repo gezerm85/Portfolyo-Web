@@ -11,7 +11,7 @@ function Header() {
         <NavLink to="/">logo</NavLink>
       </div>
       <div className=" text-[#2D2D2D]   gap-10 hidden md:flex ">
-        <NavLink className=" aria-[current=page]:text-blue-400" to="/about">
+        <NavLink className=" aria-[current=page]:text-[#e696c1]" to="/about">
           About
         </NavLink>
         <h1>Work</h1>
@@ -38,7 +38,7 @@ function Header() {
               <Menu.Item>
                 {() => (
                   <NavLink
-                    className=" p-3 hover:bg-[#f3f3f3]  aria-[current=page]:text-blue-400"
+                    className=" p-3 hover:bg-[#f3f3f3]  aria-[current=page]:text-[#e696c1]"
                     to="/about"
                   >
                     About
